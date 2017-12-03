@@ -40,8 +40,6 @@ func SpiralStore(goal int) int {
 
 // SpiralSummedValue calculates the "summed" value of a
 // given number (goal) as described above.
-// PreviousGoals expects the preceding goals to be given,
-// and as such len(previousGoals) == goal-1.
 func SpiralSummedValue(goal int) int {
 	hardCodeded := []int{0, 1, 1, 2, 4, 5, 10, 11, 23, 25}
 	if goal < len(hardCodeded) {
