@@ -107,6 +107,10 @@ func main() {
 	fmt.Printf("Our quadrant center value is %v, meaning our goal is %v steps away from the center value.\n", quadrantCenterValue, goalCenterOffset)
 
 	goalManhattenDistance := currentRingNumber + goalCenterOffset
+
+	// The resulting Manhatten distance for our goal is 430
 	fmt.Printf("The resulting Manhatten distance for our goal is %v", goalManhattenDistance)
+
+	// One pretty blank line to wrap this up
 	fmt.Println()
 }
